@@ -1,7 +1,11 @@
 #include "ofApp.h"
+#include "world/world.h"
 
 //--------------------------------------------------------------
 void ofApp::setup(){
+    World w;
+    w.name="ok";
+    cout << w.name;
 
 }
 
@@ -56,6 +60,6 @@ void ofApp::gotMessage(ofMessage msg){
 }
 
 //--------------------------------------------------------------
-void ofApp::dragEvent(ofDragInfo dragInfo){ 
+void ofApp::dragEvent(ofDragInfo dragInfo){
 
 }
